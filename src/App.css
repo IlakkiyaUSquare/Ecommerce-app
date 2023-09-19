@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.navbar{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-nav li a{
+    font-size: 18px;
+    color: brown;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  
+    
+}
+.navbar-brand{
+  
+  font-family: 'Kanit', sans-serif;
+  
+    color: brown;
+    font-size: 30px;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card-tit{
+    font-size: 20px;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .card-txt{
+    font-size: 20px;
+    font-weight: bold;
   }
-}
+p{
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  .card-img-top{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+  }
+  .card{
+    transition: all 0.5s ease;
+  }
+  .card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.5);
+  }
+  
+  .abt{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 180px;
+  }
+  
+  .lead1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+  }
+  .para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    
+    
+  }
+  .btn{
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+  }
+  .prod{
+    
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: brown;
+  }
+  .nav-items{
+    font-family: 'Merriweather', serif;
+    
+  }
+  .aboutpage{
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+  
